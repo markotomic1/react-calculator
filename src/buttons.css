@@ -1,0 +1,37 @@
+#pad div {
+  align-items: center;
+  text-align: center;
+  padding: 2px;
+  border: 1px solid black;
+}
+#pad div:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+#pad {
+  margin-top: 150px;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  grid-template-columns: 80px 80px 80px 80px;
+  grid-template-rows: 80px 80px 80px 80px 80px;
+}
+
+#clear {
+  grid-column: 1 / span 2;
+  background-color: lightcoral;
+  color: white;
+}
+#zero {
+  grid-column: 1 / span 3;
+}
+#equals {
+}
+.operation {
+  background-color: gray;
+  color: white;
+}
+.number {
+  background-color: #1f1e1e;
+  color: white;
+}
