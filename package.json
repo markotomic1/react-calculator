@@ -1,4 +1,5 @@
 {
+  "homepage": "http://github.io/markotomic1/react-calculator",
   "name": "react-calc",
   "version": "0.1.0",
   "private": true,
@@ -11,6 +12,8 @@
     "react-scripts": "3.4.3"
   },
   "scripts": {
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
