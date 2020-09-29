@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/markotomic1/react-calculator/static/css/main.9b7500f0.chunk.css",
+    "main.js": "/markotomic1/react-calculator/static/js/main.87d179f3.chunk.js",
+    "main.js.map": "/markotomic1/react-calculator/static/js/main.87d179f3.chunk.js.map",
+    "runtime-main.js": "/markotomic1/react-calculator/static/js/runtime-main.6efbe93c.js",
+    "runtime-main.js.map": "/markotomic1/react-calculator/static/js/runtime-main.6efbe93c.js.map",
+    "static/js/2.a1da0967.chunk.js": "/markotomic1/react-calculator/static/js/2.a1da0967.chunk.js",
+    "static/js/2.a1da0967.chunk.js.map": "/markotomic1/react-calculator/static/js/2.a1da0967.chunk.js.map",
+    "index.html": "/markotomic1/react-calculator/index.html",
+    "precache-manifest.a7b97eb8d3dea8b684d2d1c4bd64faf1.js": "/markotomic1/react-calculator/precache-manifest.a7b97eb8d3dea8b684d2d1c4bd64faf1.js",
+    "service-worker.js": "/markotomic1/react-calculator/service-worker.js",
+    "static/css/main.9b7500f0.chunk.css.map": "/markotomic1/react-calculator/static/css/main.9b7500f0.chunk.css.map",
+    "static/js/2.a1da0967.chunk.js.LICENSE.txt": "/markotomic1/react-calculator/static/js/2.a1da0967.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6efbe93c.js",
+    "static/js/2.a1da0967.chunk.js",
+    "static/css/main.9b7500f0.chunk.css",
+    "static/js/main.87d179f3.chunk.js"
+  ]
+}
