@@ -2,21 +2,18 @@ import React from "react";
 import "./buttons.css";
 
 class Buttons extends React.Component {
-  constructor(props) {
-    super(props);
-  }
   render() {
     return (
       <div id="pad">
+        <div id="display">0</div>
         <div id="clear">AC</div>
         <div id="divide" className="operation">
-          {" "}
           /
         </div>
         <div id="multiply" className="operation">
           *
         </div>
-        <div id="seven" className="number">
+        <div id="seven" onClick={this.props.click} className="number">
           7
         </div>
         <div id="eight" className="number">
