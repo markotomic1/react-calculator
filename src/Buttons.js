@@ -5,56 +5,133 @@ class Buttons extends React.Component {
   render() {
     return (
       <div id="pad">
-        <div id="display">0</div>
-        <div id="clear">AC</div>
-        <div id="divide" className="operation">
+        <div id="display">{this.props.display}</div>
+        <button id="clear" onClick={this.props.onClear}>
+          AC
+        </button>
+        <button
+          value="/"
+          id="divide"
+          onClick={this.props.onClick}
+          className="operation"
+        >
           /
-        </div>
-        <div id="multiply" className="operation">
+        </button>
+        <button
+          value="*"
+          id="multiply"
+          className="operation"
+          onClick={this.props.onClick}
+        >
           *
-        </div>
-        <div id="seven" onClick={this.props.click} className="number">
+        </button>
+        <button
+          value={7}
+          id="seven"
+          onClick={this.props.onClick}
+          className="number"
+        >
           7
-        </div>
-        <div id="eight" className="number">
+        </button>
+        <button
+          id="eight"
+          value={8}
+          className="number"
+          onClick={this.props.onClick}
+        >
           8
-        </div>
-        <div id="nine" className="number">
+        </button>
+        <button
+          id="nine"
+          value={9}
+          className="number"
+          onClick={this.props.onClick}
+        >
           9
-        </div>
-        <div id="subtract" className="operation">
+        </button>
+        <button
+          value="-"
+          id="subtract"
+          className="operation"
+          onClick={this.props.onClick}
+        >
           -
-        </div>
-        <div id="four" className="number">
+        </button>
+        <button
+          id="four"
+          value={4}
+          className="number"
+          onClick={this.props.onClick}
+        >
           4
-        </div>
-        <div id="five" className="number">
+        </button>
+        <button
+          id="five"
+          value={5}
+          className="number"
+          onClick={this.props.onClick}
+        >
           5
-        </div>
-        <div id="six" className="number">
+        </button>
+        <button
+          id="six"
+          value={6}
+          className="number"
+          onClick={this.props.onClick}
+        >
           6
-        </div>
-        <div id="add" className="operation">
+        </button>
+        <button
+          value="+"
+          id="add"
+          className="operation"
+          onClick={this.props.onClick}
+        >
           +
-        </div>
-        <div id="one" className="number">
+        </button>
+        <button
+          id="one"
+          value={1}
+          className="number"
+          onClick={this.props.onClick}
+        >
           1
-        </div>
-        <div id="two" className="number">
+        </button>
+        <button
+          id="two"
+          value={2}
+          className="number"
+          onClick={this.props.onClick}
+        >
           2
-        </div>
-        <div id="three" className="number">
+        </button>
+        <button
+          id="three"
+          value={3}
+          className="number"
+          onClick={this.props.onClick}
+        >
           3
-        </div>
-        <div id="equals" className="number">
+        </button>
+        <button id="equals" className="number" onClick={this.props.onEqual}>
           =
-        </div>
-        <div id="zero" className="number">
+        </button>
+        <button
+          id="zero"
+          value={0}
+          className="number"
+          onClick={this.props.onClick}
+        >
           0
-        </div>
-        <div id="decimal" className="number">
+        </button>
+        <button
+          value="."
+          id="decimal"
+          className="number"
+          onClick={this.props.onClick}
+        >
           .
-        </div>
+        </button>
       </div>
     );
   }
