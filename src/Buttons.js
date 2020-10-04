@@ -12,7 +12,7 @@ class Buttons extends React.Component {
         <button
           value="/"
           id="divide"
-          onClick={this.props.onClick}
+          onClick={this.props.onOperator}
           className="operation"
         >
           /
@@ -21,7 +21,7 @@ class Buttons extends React.Component {
           value="*"
           id="multiply"
           className="operation"
-          onClick={this.props.onClick}
+          onClick={this.props.onOperator}
         >
           *
         </button>
@@ -53,7 +53,7 @@ class Buttons extends React.Component {
           value="-"
           id="subtract"
           className="operation"
-          onClick={this.props.onClick}
+          onClick={this.props.onOperator}
         >
           -
         </button>
@@ -85,7 +85,7 @@ class Buttons extends React.Component {
           value="+"
           id="add"
           className="operation"
-          onClick={this.props.onClick}
+          onClick={this.props.onOperator}
         >
           +
         </button>
@@ -128,7 +128,7 @@ class Buttons extends React.Component {
           value="."
           id="decimal"
           className="number"
-          onClick={this.props.onClick}
+          onClick={this.props.onDot}
         >
           .
         </button>
